@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>101 Tabela — Puan Takip Uygulaması</title>
+  <meta name="description" content="Klasik Türk kart oyunu 101 için temiz, hızlı puan takip uygulaması.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+    nav { padding: 20px 32px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e1e1e; }
+    .logo { font-weight: 800; font-size: 20px; color: #f59e0b; }
+    nav a { color: #94a3b8; font-size: 14px; text-decoration: none; }
+    nav a:hover { color: #fff; }
+    .hero { max-width: 640px; margin: 0 auto; padding: 80px 32px 60px; text-align: center; }
+    .icon { font-size: 80px; margin-bottom: 24px; }
+    h1 { font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 900; line-height: 1.1; margin-bottom: 20px; }
+    h1 span { color: #f59e0b; }
+    .subtitle { font-size: 18px; color: #94a3b8; line-height: 1.7; margin-bottom: 44px; }
+    .cta { display: inline-flex; align-items: center; gap: 12px; background: #f59e0b; color: #000; font-weight: 700; padding: 16px 36px; border-radius: 50px; font-size: 17px; text-decoration: none; transition: opacity .2s, transform .2s; }
+    .cta:hover { opacity: .85; transform: translateY(-1px); }
+    .features { max-width: 640px; margin: 80px auto 0; padding: 0 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; }
+    .card { background: #111; border: 1px solid #1e1e1e; border-radius: 16px; padding: 22px 18px; text-align: center; transition: border-color .2s, transform .2s; }
+    .card:hover { border-color: #f59e0b; transform: translateY(-2px); }
+    .card .emoji { font-size: 28px; margin-bottom: 10px; }
+    .card .title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+    .card .desc { color: #64748b; font-size: 13px; line-height: 1.4; }
+    footer { text-align: center; padding: 48px 32px; color: #475569; font-size: 13px; border-top: 1px solid #1e1e1e; margin-top: 80px; }
+    footer a { color: #64748b; text-decoration: none; }
+    footer a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="logo">101 Tabela</span>
+    <a href="/privacy">Gizlilik</a>
+  </nav>
+  <section class="hero">
+    <div class="icon">🃏</div>
+    <h1>101 Oyna,<br><span>Puanları Takip Et</span></h1>
+    <p class="subtitle">Klasik Türk kart oyunu 101 için temiz, hızlı puan takip uygulaması. Oyuncuları ekle, tur tur puan gir, kazananı bul.</p>
+    <a href="https://apps.apple.com/us/app/101-tabela/id6761936487" class="cta" target="_blank" rel="noopener noreferrer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      App Store'dan İndir
+    </a>
+  </section>
+  <section class="features">
+    <div class="card"><div class="emoji">👥</div><div class="title">Çok Oyunculu</div><div class="desc">2-8 oyuncu desteği</div></div>
+    <div class="card"><div class="emoji">⚡</div><div class="title">Hızlı Kurulum</div><div class="desc">Saniyeler içinde başla</div></div>
+    <div class="card"><div class="emoji">📊</div><div class="title">Puan Geçmişi</div><div class="desc">Tüm turları takip et</div></div>
+    <div class="card"><div class="emoji">🌙</div><div class="title">Karanlık Tema</div><div class="desc">Gözlere dost tasarım</div></div>
+  </section>
+  <footer>
+    <p>© 2026 Uğur Demiröz &nbsp;·&nbsp; <a href="/privacy">Gizlilik Politikası</a></p>
+  </footer>
+</body>
+</html>
